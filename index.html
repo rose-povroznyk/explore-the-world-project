@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="first-screen">
+      <!-- Навігаційне меню для малих екранів -->
+      <header class="media-navigation">
+        <!-- Чекбокс кнопка для виклику меню-->
+        <input type="checkbox" class="media-navigation-toggle" id="toggle" />
+        <label for="toggle" class="media-navigation-button">
+          <img src="./icons/airplane.png" alt="airplane logo" />
+        </label>
+        <!-- Фон на весь екран-->
+        <div class="media-navigation-background"></div>
+        <!-- Навігаційне меню-->
+        <nav class="media-navigation-nav">
+          <ul class="media-navigation-list">
+            <li class="media-navigation-item">
+              <a href="#" class="media-navigation-link">Destination</a>
+            </li>
+            <li class="media-navigation-item">
+              <a href="#" class="media-navigation-link">Offer</a>
+            </li>
+            <li class="media-navigation-item">
+              <a href="#" class="media-navigation-link">Tour</a>
+            </li>
+            <li class="media-navigation-item">
+              <a href="#" class="media-navigation-link">Blog</a>
+            </li>
+            <li class="media-navigation-item">
+              <a href="#" class="media-navigation-link">My account</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="header-container">
+        <img src="./icons/logo.svg" alt="ravel logo" class="logo" />
+        <h1>
+          It’s Time To <br />
+          Explore The
+          <div class="letter-container">
+            <span class="letter">W</span><span class="letter">O</span
+            ><span class="letter">R</span><span class="letter">L</span
+            ><span class="letter">D</span>
+          </div>
+        </h1>
+
+        <a href="#" class="header-button">Plan your trip</a>
+      </div>
+
+      <form class="search-form">
+        <div class="input-containers">
+          <label for="destination">Destinations</label>
+          <select id="destination" name="destination">
+            <option value="italy">Italy</option>
+            <option value="france">France</option>
+            <option value="japan">Japan</option>
+            <option value="spain">Spain</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="thailand">Thailand</option>
+            <option value="greece">Greece</option>
+            <option value="brazil">Brazil</option>
+            <option value="egypt">Egypt</option>
+            <option value="southafrica">South Africa</option>
+            <option value="newzealand">New Zealand</option>
+            <option value="germany">Germany</option>
+            <option value="india">India</option>
+            <option value="mexico">Mexico</option>
+          </select>
+        </div>
+        <div class="input-containers">
+          <label for="date">Check in &#x1F4C5;</label>
+          <input type="date" name="date" />
+        </div>
+        <div class="input-containers">
+          <label for="price">Price range &#36;</label>
+          <input type="number" placeholder="$500 - $10 000" />
+        </div>
+        <button class="header-button">Discover Now</button>
+      </form>
+    </section>
+  </body>
+</html>

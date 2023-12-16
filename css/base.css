@@ -1,0 +1,19 @@
+:root {
+  --main-color: #ff715b;
+  --white-color: #fff;
+  --blue-color: #3fd0d5;
+  --brown-gray-color: #6b6261;
+  --hover-orange: #e05746;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}

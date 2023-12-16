@@ -1,0 +1,229 @@
+/* Загальні стилі секції*/
+.first-screen {
+  height: 100vh;
+  width: 100%;
+  background: url(../images/hero-banner\ 2.png) center/cover no-repeat;
+}
+
+/* Стиль контейнера з лого, хедером і кнопкою*/
+.header-container {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+/* Стиль для заголовка*/
+h1 {
+  font-size: 4.7rem;
+  font-weight: bold;
+  line-height: 1.3em;
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+/* Кольорова анімація*/
+.letter {
+  display: inline-block;
+  font-weight: 900;
+  animation: wave 1s infinite;
+}
+
+.letter:nth-child(1) {
+  color: #f2869d;
+  animation-delay: 0s;
+}
+
+.letter:nth-child(2) {
+  color: #49dce3;
+  animation-delay: 0.2s;
+}
+
+.letter:nth-child(3) {
+  color: #ffce56;
+  animation-delay: 0.4s;
+}
+
+.letter:nth-child(4) {
+  color: #34aa87;
+  animation-delay: 0.6s;
+}
+
+.letter:nth-child(5) {
+  color: #9cacea;
+  animation-delay: 0.8s;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Стиль для лого*/
+.logo {
+  width: 18%;
+  margin-bottom: 2rem;
+}
+
+/* Стиль для кнопки*/
+
+.header-container a {
+  display: none;
+}
+
+/* Стиль для форми*/
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  border-radius: 0.4rem;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.search-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--brown-gray-color);
+}
+
+.search-form input,
+.search-form select,
+.search-form input::placeholder {
+  padding: 0.5rem;
+  border: none;
+  color: var(--main-color);
+  font-size: 1.1rem;
+}
+
+.header-button {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35), 0 6px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.header-button:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45), 0 10px 10px rgba(0, 0, 0, 0.35);
+  background-color: var(--hover-orange);
+  cursor: pointer;
+}
+
+/* Стилізація гамбургера*/
+/* Вимкнення чекбоксу для стилізації */
+.media-navigation-toggle {
+  display: none;
+}
+/* Стилізація лейблу для появи кнопки*/
+.media-navigation-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3rem;
+  right: 5rem;
+  z-index: 200;
+  height: 5rem;
+  width: 5rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.media-navigation-button img {
+  width: 175%;
+  position: absolute;
+  top: 13%;
+  right: -29%;
+}
+
+/* Створення фону на весь екран*/
+.media-navigation-background {
+  position: fixed;
+  top: 3rem;
+  right: 6rem;
+  z-index: 100;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  transition: 0.7s all;
+}
+
+/* Навігаційне меню*/
+
+.media-navigation-nav {
+  position: fixed;
+  right: 0;
+  top: 0%;
+  z-index: 150;
+  width: 0;
+  height: 100vh;
+  opacity: 0;
+  transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.media-navigation-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background-color: #3fd0d5;
+  list-style-type: none;
+}
+
+.media-navigation-list:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.media-navigation-link {
+  font-size: 3rem;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.media-navigation-link:hover {
+  color: var(--main-color);
+  transform: translateX(-1rem);
+}
+
+/* Поява фону і навігаційного меню при натисненні на чекбокс*/
+.media-navigation-toggle:checked ~ .media-navigation-background {
+  transform: scale(100);
+}
+
+.media-navigation-toggle:checked ~ .media-navigation-nav {
+  width: 100%;
+  opacity: 1;
+}
