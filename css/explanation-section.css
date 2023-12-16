@@ -1,7 +1,7 @@
 .explanation-section {
   display: flex;
   justify-content: space-between;
-  padding: 10rem;
+  padding: 10rem 15rem 5rem 15rem;
 }
 
 .explanation-box {
@@ -10,10 +10,20 @@
 }
 
 .explanation-box-img {
+  display: inline-block;
   width: 5.5rem;
   height: 5.5rem;
   object-fit: cover;
   margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.explanation-box-img:hover {
+  transform: rotate(-8deg);
+}
+
+.explanation-box-img:hover + .explanation-box-title {
+  color: var(--main-color);
 }
 
 .explanation-box-title {
