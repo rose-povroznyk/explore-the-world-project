@@ -5,7 +5,7 @@
   background: url(../images/hero-banner\ 2.png) center/cover no-repeat;
 }
 
-/* Стиль контейнера з лого, хедером і кнопкою*/
+/* Стиль контейнера з лого і хедером*/
 .header-container {
   position: relative;
   top: 10%;
@@ -123,6 +123,7 @@ h1 {
   padding: 1rem 2rem;
   border: none;
   text-decoration: none;
+  text-transform: capitalize;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35), 0 6px 6px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s, background-color 0.3s;
 }

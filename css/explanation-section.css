@@ -1,0 +1,29 @@
+.explanation-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem;
+}
+
+.explanation-box {
+  text-align: center;
+  padding: 2rem;
+}
+
+.explanation-box-img {
+  width: 5.5rem;
+  height: 5.5rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.explanation-box-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.explanation-box-descr {
+  line-height: 1.4rem;
+  color: var(--text-color);
+}
