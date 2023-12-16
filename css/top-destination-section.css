@@ -24,17 +24,19 @@
 }
 
 .top-destination-img-box {
-  width: 18rem;
+  display: block;
   position: relative;
+  overflow: hidden;
 }
 
 .top-destination-img-box:hover {
   transform: scale(1.1);
   z-index: 5;
-  outline: 0.8rem solid var(--main-color);
+  outline: 0.5rem solid var(--main-color);
 }
 .top-destination-img-box img {
-  width: 100%;
+  width: 18rem;
+  height: 22rem;
   object-fit: cover;
 }
 
