@@ -1,21 +1,33 @@
 .explanation-section {
   display: flex;
-  justify-content: space-between;
-  padding: 10rem 15rem 5rem 15rem;
+  justify-content: space-around;
+  max-width: 106rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  padding: 0rem 5rem 0rem 5rem;
 }
-
 .explanation-box {
+  max-width: 18rem;
+  min-height: 18rem;
+  background-color: #f8f8f8;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 2rem;
+  transition: all 0.3s ease-in-out;
 }
 
+.explanation-box:hover {
+  background-color: var(--white-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .explanation-box-img {
   display: inline-block;
-  width: 5.5rem;
-  height: 5.5rem;
+  max-width: 6rem;
+  min-height: 6rem;
   object-fit: cover;
   margin-bottom: 1rem;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .explanation-box-img:hover {
@@ -27,13 +39,6 @@
 }
 
 .explanation-box-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: capitalize;
   margin-bottom: 1rem;
-}
-
-.explanation-box-descr {
-  line-height: 1.4rem;
-  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
 }

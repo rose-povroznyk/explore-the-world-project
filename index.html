@@ -53,7 +53,7 @@
           </div>
         </h1>
 
-        <a href="#" class="header-button">Plan your trip</a>
+        <a href="#" class="button">Plan your trip</a>
       </div>
 
       <!--Форма-->
@@ -86,7 +86,7 @@
           <label for="price">Price range &#36;</label>
           <input type="number" placeholder="$500 - $10 000" />
         </div>
-        <button class="header-button">Discover Now</button>
+        <button class="button">Discover Now</button>
       </form>
     </section>
 
@@ -95,8 +95,8 @@
     <section class="explanation-section">
       <div class="explanation-box">
         <img src="./icons/map.png" alt="map" class="explanation-box-img" />
-        <h3 class="explanation-box-title">Choose Destination</h3>
-        <p class="explanation-box-descr">
+        <h3 class="explanation-box-title sub-title">Choose Destination</h3>
+        <p class="explanation-box-descr descr">
           Lorem Ipsum is simply dummy text of the printing setting
         </p>
       </div>
@@ -106,8 +106,8 @@
           alt="binocular"
           class="explanation-box-img"
         />
-        <h3 class="explanation-box-title">Explore The Place</h3>
-        <p class="explanation-box-descr">
+        <h3 class="explanation-box-title sub-title">Explore The Place</h3>
+        <p class="explanation-box-descr descr">
           Lorem Ipsum is simply dummy text of the printing setting
         </p>
       </div>
@@ -117,8 +117,8 @@
           alt="backpack"
           class="explanation-box-img"
         />
-        <h3 class="explanation-box-title">Start Your Journey</h3>
-        <p class="explanation-box-descr">
+        <h3 class="explanation-box-title sub-title">Start Your Journey</h3>
+        <p class="explanation-box-descr descr">
           Lorem Ipsum is simply dummy text of the printing setting
         </p>
       </div>
@@ -128,8 +128,8 @@
           alt="ukulele"
           class="explanation-box-img"
         />
-        <h3 class="explanation-box-title">Let’s Enjoy</h3>
-        <p class="explanation-box-descr">
+        <h3 class="explanation-box-title sub-title">Let’s Enjoy</h3>
+        <p class="explanation-box-descr descr">
           Lorem Ipsum is simply dummy text of the printing setting
         </p>
       </div>
@@ -139,15 +139,15 @@
 
     <section class="top-destination-section">
       <div class="top-destination-text-box">
-        <h2 class="top-destination-text-box-title">
+        <h2 class="top-destination-text-box-title title">
           Top <span>Destinations</span> <br />
           In The World
         </h2>
-        <p class="top-destination-text-box-descr">
+        <p class="top-destination-text-box-descr descr">
           It is a long established fact that a reader will be the distracted by
           the readable content of a page when looking at its layout from it.
         </p>
-        <button class="header-button">Discover More</button>
+        <button class="button">Discover More</button>
       </div>
       <div class="top-destination-img-box">
         <img src="./images/cuba.jpeg" alt="Cuba picture" />
@@ -167,17 +167,24 @@
 
     <section class="about-section">
       <div class="about-img-box">
+        <img
+          src="./images/lighthouse.jpeg"
+          alt="lighthouse"
+          class="lighthouse"
+        />
         <img src="./icons/pattern.svg" alt="pattern" class="pseudo" />
       </div>
       <div class="about-text-box">
-        <h2 class="about-text-box-title">
+        <h2 class="about-text-box-title title">
           We Offering In Total 793 Tours Out The World
         </h2>
         <div class="about-text-box-item">
           <img src="./icons/user-icon.png" alt="user-icon" />
           <div>
-            <h3>Best Travel Guide Always For Your Services</h3>
-            <p>
+            <h3 class="sub-title">
+              Best Travel Guide Always For Your Services
+            </h3>
+            <p class="descr">
               Travel has helped us to understandsa the meaning of life and it
               has helped us become better people. Each time we travel, we see
               the world with new eyes. Travel has helped us to understand the
@@ -187,13 +194,69 @@
         </div>
         <div class="about-text-box-item">
           <img src="./icons/globe-icon.png" alt="user-icon" />
-          <h3>World Class Services Provide For You</h3>
+          <h3 class="sub-title">World Class Services Provide For You</h3>
         </div>
         <div class="about-text-box-item">
           <img src="./icons/headphones-icon.png" alt="user-icon" />
-          <h3>24/7 Strong Customer Support</h3>
+          <h3 class="sub-title">24/7 Strong Customer Support</h3>
         </div>
       </div>
+    </section>
+
+    <!--П'ята секція про вибір туру-->
+    <section class="choose-section">
+      <h2 class="title">Choose Your Destination</h2>
+      <div class="choose-section-container">
+        <div class="choose-section-container-card">
+          <img src="./images/first-card.png" alt="picture of desert" />
+          <div class="choose-section-container-card-text-box">
+            <div class="choose-section-container-card-text-box-descr">
+              <h3 class="sub-title">Santorini, Oia Greece</h3>
+              <ul>
+                <li class="price">$2000</li>
+                <li class="range">
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </li>
+                <li class="review">5k Reviews</li>
+              </ul>
+            </div>
+            <button class="button mini">+</button>
+          </div>
+        </div>
+        <div class="choose-section-container-card">
+          <img src="./images/second-card.png" alt="picture of desert" />
+          <div class="choose-section-container-card-text-box">
+            <div class="choose-section-container-card-text-box-descr">
+              <h3 class="sub-title">Lighthouse, Ireland</h3>
+              <ul>
+                <li class="price">$2500</li>
+                <li class="range">
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </li>
+                <li class="review">6k Reviews</li>
+              </ul>
+            </div>
+            <button class="button mini">+</button>
+          </div>
+        </div>
+        <div class="choose-section-container-card">
+          <img src="./images/third-card.png" alt="picture of desert" />
+          <div class="choose-section-container-card-text-box">
+            <div class="choose-section-container-card-text-box-descr">
+              <h3 class="sub-title">Landscape, China</h3>
+              <ul>
+                <li class="price">$2850</li>
+                <li class="range">
+                  &#11088; &#11088; &#11088; &#11088; &#11088;
+                </li>
+                <li class="review">3k Reviews</li>
+              </ul>
+            </div>
+            <button class="button mini">+</button>
+          </div>
+        </div>
+      </div>
+      <button class="button">View All Places</button>
     </section>
   </body>
 </html>

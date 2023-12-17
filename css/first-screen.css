@@ -1,9 +1,10 @@
 /* Загальні стилі секції*/
 .first-screen {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 100%;
   background: url(../images/hero-banner\ 2.png) center/cover no-repeat;
+  margin-bottom: 10rem;
   overflow: hidden;
 }
 
@@ -16,7 +17,7 @@
 
 /* Стиль для заголовка*/
 h1 {
-  font-size: 4.7rem;
+  font-size: 6rem;
   font-weight: bold;
   line-height: 1.3em;
   text-transform: capitalize;
@@ -75,7 +76,7 @@ h1 {
 
 /* Стиль для лого*/
 .logo {
-  width: 15rem;
+  width: 18rem;
   margin-bottom: 1.5rem;
 }
 
@@ -95,7 +96,7 @@ h1 {
   bottom: 5%;
   width: 65%;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 1em;
+  padding: 2em;
   border-radius: 0.4rem;
   border: 2px solid rgba(0, 0, 0, 0.2);
 }
@@ -103,7 +104,7 @@ h1 {
 .search-form label {
   display: block;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--brown-gray-color);
 }
@@ -114,26 +115,7 @@ h1 {
   padding: 0.5rem;
   border: none;
   color: var(--main-color);
-  font-size: 1.1rem;
-}
-
-.header-button {
-  background-color: var(--main-color);
-  color: var(--white-color);
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 1rem 2rem;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35), 0 6px 6px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s, background-color 0.3s;
-}
-
-.header-button:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45), 0 10px 10px rgba(0, 0, 0, 0.35);
-  background-color: var(--hover-orange);
-  cursor: pointer;
+  font-size: 1.3rem;
 }
 
 /* Стилізація гамбургера*/
@@ -146,12 +128,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 3rem;
   right: 5rem;
   z-index: 200;
-  height: 5rem;
-  width: 5rem;
+  height: 8rem;
+  width: 8rem;
   background-color: var(--main-color);
   border-radius: 50%;
   text-align: center;
@@ -159,7 +141,7 @@ h1 {
 }
 
 .media-navigation-button img {
-  width: 175%;
+  width: 180%;
   position: absolute;
   top: 13%;
   right: -29%;
@@ -167,12 +149,12 @@ h1 {
 
 /* Створення фону на весь екран*/
 .media-navigation-background {
-  position: fixed;
+  position: absolute;
   top: 3rem;
   right: 6rem;
   z-index: 100;
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: var(--main-color);
   transition: 0.7s all;
@@ -181,7 +163,7 @@ h1 {
 /* Навігаційне меню*/
 
 .media-navigation-nav {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0%;
   z-index: 150;

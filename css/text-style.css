@@ -1,0 +1,21 @@
+.descr {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--text-color);
+}
+
+.sub-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.title:hover {
+  filter: invert(75%);
+}
