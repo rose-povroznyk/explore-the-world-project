@@ -2,7 +2,7 @@
 
 @import url("./base.css");
 @import url("./text-style.css");
-@import url(./button.css);
+@import url("./button.css");
 @import url("./first-screen.css");
 @import url("./explanation-section.css");
 @import url("./top-destination-section.css");
@@ -10,3 +10,4 @@
 @import url("./choose-section.css");
 @import url("./feedback-section.css");
 @import url("./apps-section.css");
+@import url("./footer.css");

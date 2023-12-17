@@ -1,0 +1,98 @@
+footer {
+  margin: 0 auto;
+  padding: 0rem 10rem 3rem 10rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-a;
+  align-items: start;
+  max-width: 106rem;
+}
+
+.footer div {
+  margin-right: 6rem;
+}
+
+.footer-ravel-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-ravel-box .logo {
+  margin-bottom: 1rem;
+}
+.footer-ravel-box p {
+  margin-bottom: 1.2rem;
+}
+
+.footer-ravel-box li,
+.footer-links-box li,
+.footer-support-box li {
+  list-style-type: none;
+  margin-bottom: 0.8rem;
+}
+
+.footer-ravel-box li:last-of-type,
+.footer-links-box li:last-of-type,
+.footer-support-box li:last-of-type {
+  margin-bottom: none;
+}
+
+.footer-ravel-box li a,
+.footer-links-box li a,
+.footer-support-box li a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.footer-ravel-box li a img {
+  margin-right: 1rem;
+}
+
+.footer-links-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-box h3,
+.footer-support-box h3,
+.footer-form h3 {
+  margin-bottom: 3.5rem;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-form h3 {
+  margin-bottom: 3.5rem;
+}
+
+.footer-form input {
+  width: 20rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer .descr {
+  transition: all 0.3s ease;
+}
+
+.footer .descr:hover {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.copyright {
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 6rem;
+}
+.copyright span {
+  color: var(--main-color);
+}

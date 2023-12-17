@@ -75,7 +75,8 @@ h1 {
 }
 
 /* Стиль для лого*/
-.logo {
+.header-container .logo {
+  display: block;
   width: 18rem;
   margin-bottom: 1.5rem;
 }

@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- Головна сторінка-->
-    <section class="first-screen">
+    <section class="first-screen" id="first-screen">
       <!-- Розкриваюче авігаційне меню -->
       <header class="media-navigation">
         <!-- Чекбокс кнопка для виклику меню-->
@@ -22,16 +22,18 @@
         <nav class="media-navigation-nav">
           <ul class="media-navigation-list">
             <li class="media-navigation-item">
-              <a href="#" class="media-navigation-link">Destination</a>
+              <a href="#top-destination-section" class="media-navigation-link"
+                >Destination</a
+              >
             </li>
             <li class="media-navigation-item">
-              <a href="#" class="media-navigation-link">Offer</a>
+              <a href="#about-section" class="media-navigation-link">Offer</a>
             </li>
             <li class="media-navigation-item">
-              <a href="#" class="media-navigation-link">Tour</a>
+              <a href="#choose-section" class="media-navigation-link">Tour</a>
             </li>
             <li class="media-navigation-item">
-              <a href="#" class="media-navigation-link">Blog</a>
+              <a href="#feedback-section" class="media-navigation-link">Blog</a>
             </li>
             <li class="media-navigation-item">
               <a href="#" class="media-navigation-link">My account</a>
@@ -42,7 +44,10 @@
 
       <!--Контейнер із основним заголовком і лого-->
       <div class="header-container">
-        <img src="./icons/logo.svg" alt="ravel logo" class="logo" />
+        <a href="#" class="logo">
+          <img src="./icons/logo.svg" alt="ravel logo" class="logo"
+        /></a>
+
         <h1>
           It’s Time To <span class="br">Explore The</span>
           <div class="letter-container">
@@ -91,7 +96,7 @@
 
     <!--Друга секція пояснення-->
 
-    <section class="explanation-section">
+    <section class="explanation-section" id="explanation-section">
       <div class="explanation-box">
         <img src="./icons/map.png" alt="map" class="explanation-box-img" />
         <h3 class="explanation-box-title sub-title">Choose Destination</h3>
@@ -136,7 +141,7 @@
 
     <!--Третя секція з топ-місцями-->
 
-    <section class="top-destination-section">
+    <section class="top-destination-section" id="top-destination-section">
       <div class="top-destination-text-box">
         <h2 class="top-destination-text-box-title title">
           Top <span>Destinations</span> <span class="br">In The World</span>
@@ -163,7 +168,7 @@
 
     <!--Четверта секція про компаннію-->
 
-    <section class="about-section">
+    <section class="about-section" id="about-section">
       <div class="about-img-box">
         <img
           src="./images/lighthouse.jpeg"
@@ -202,7 +207,7 @@
     </section>
 
     <!--П'ята секція про вибір туру-->
-    <section class="choose-section">
+    <section class="choose-section" id="choose-section">
       <h2 class="title">Choose Your Destination</h2>
       <div class="choose-section-container">
         <div class="choose-section-container-card">
@@ -258,16 +263,16 @@
     </section>
 
     <!--Шоста секція з відгуками-->
-    <section class="feedback-section">
+    <section class="feedback-section" id="feedback-section">
       <h2 class="title">What Our Happy Customers <span>Say About Us</span></h2>
       <div class="feedback-section-box">
         <!-- Основна карточка -->
         <div class="feedback-section-box-main">
           <div>
-            <img src="./icons/feedone.png" alt="feed-icon" />
+            <img src="./icons/marco.jpeg" alt="feed-icon" />
             <div>
-              <h3 class="sub-title">Md Shamim Hossain</h3>
-              <p>UI/UX Designer</p>
+              <h3 class="sub-title">Marco Polo</h3>
+              <p>Eternal Traveler</p>
             </div>
           </div>
           <p class="descr">
@@ -289,7 +294,7 @@
     </section>
 
     <!--Сьома секція з додатками-->
-    <section class="apps-section">
+    <section class="apps-section" id="apps-section">
       <div class="apps-section-left-box">
         <h2 class="title">
           Download Now Travel <span class="br">Community Apps</span>
@@ -308,5 +313,82 @@
         <img src="./images/findapps.png" alt="findapps logo" class="findapps" />
       </div>
     </section>
+
+    <!--Футер-->
+    <footer id="footer">
+      <div class="footer">
+        <div class="footer-ravel-box">
+          <a href="#">
+            <img src="./icons/logo.svg" alt="logo" class="footer logo"
+          /></a>
+
+          <p>
+            You can dream, create, design, and build the most
+            <span class="br">wonderful place.</span>
+          </p>
+          <ul>
+            <li>
+              <a href="tel:+0123456987" class="descr"
+                ><img src="./icons/tel.svg" alt="phone" />+0123 456 987, +0123
+                456 987</a
+              >
+            </li>
+            <li>
+              <a href="mailto:yourmailaddress@gmail.com" class="descr"
+                ><img
+                  src="./icons/mail.svg"
+                  alt="mail"
+                />exploreadvanture@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="#first-screen" class="descr"
+                ><img
+                  src="./icons/adress.svg"
+                  alt="adress"
+                />www.ravelsite.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-box">
+          <h3 class="sub-title">Quick Links</h3>
+          <ul>
+            <li><a href="#about-section" class="descr">- About Us</a></li>
+            <li>
+              <a href="#top-destination-section" class="descr"
+                >- Destinations</a
+              >
+            </li>
+            <li><a href="#" class="descr">- Latest Blog</a></li>
+            <li><a href="#feedback-section" class="descr">- Our Team</a></li>
+            <li><a href="#" class="descr">- Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-support-box">
+          <h3 class="sub-title">Support</h3>
+          <ul>
+            <li><a href="#" class="descr">- Customer Support</a></li>
+            <li><a href="#" class="descr">- Privacy & Policy</a></li>
+            <li><a href="#" class="descr">- Terms & Condition</a></li>
+            <li><a href="#" class="descr">- Forum</a></li>
+            <li><a href="#" class="descr">- Tour Guid</a></li>
+          </ul>
+        </div>
+
+        <form class="footer-form">
+          <h3 class="sub-title">Newsletter</h3>
+          <label>
+            <input type="text" name="letter" autofocus />
+          </label>
+          <button class="button">Subscribe Now</button>
+        </form>
+      </div>
+      <p class="copyright">
+        Copyright @2023 Ravel. Designed By <span>Rose</span>
+      </p>
+    </footer>
   </body>
 </html>
