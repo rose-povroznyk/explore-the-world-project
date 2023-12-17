@@ -1,0 +1,57 @@
+.apps-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 106rem;
+  min-height: 30.5rem;
+  background: linear-gradient(90deg, #a6f2f2 0%, #ddf181 100%);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+.apps-section-left-box {
+  width: 50%;
+  text-align: left;
+}
+.apps-section-left-box h2 {
+  margin-bottom: 3.3rem;
+}
+
+.apps-section-left-box a:first-of-type {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.apps-section-right-box {
+  align-self: end;
+  position: relative;
+  width: 50%;
+  height: 28rem;
+}
+.plane {
+  position: absolute;
+  width: 23rem;
+  height: 9.6rem;
+  top: 1%;
+  left: 0%;
+}
+.ravelapps {
+  position: absolute;
+  width: 16rem;
+  height: 20rem;
+  object-fit: cover;
+  bottom: 0%;
+  left: 30%;
+  z-index: 5;
+}
+.findapps {
+  width: 16.8rem;
+  height: 26.4rem;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0%;
+  left: 55%;
+}
