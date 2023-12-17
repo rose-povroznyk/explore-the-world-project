@@ -19,3 +19,7 @@
 .title:hover {
   filter: invert(75%);
 }
+
+.br {
+  display: block;
+}

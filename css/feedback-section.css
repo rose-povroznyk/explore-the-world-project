@@ -1,0 +1,175 @@
+.feedback-section {
+  max-width: 106rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+.feedback-section h2 span {
+  display: block;
+}
+.feedback-section h2 {
+  margin-bottom: 5.5rem;
+}
+
+.feedback-section-box {
+  position: relative;
+  max-width: 100rem;
+  min-height: 28.5rem;
+}
+
+.feedback-section-box::before {
+  content: "";
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  background-color: #9cd9ec;
+  filter: blur(3.5rem);
+  position: absolute;
+  top: -52%;
+  left: 2%;
+}
+
+.feedback-section-box::after {
+  content: "";
+  width: 13.4rem;
+  height: 13.4rem;
+  border-radius: 50%;
+  background-color: #fff8f8;
+  position: absolute;
+  top: 60%;
+  right: 21%;
+  z-index: -1;
+}
+
+.feedback-section-box-main {
+  width: 40%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-top: 0.8rem solid var(--main-color);
+  background-color: var(--white-color);
+  box-shadow: 0px 20px 30px 0px rgba(227, 202, 202, 0.3);
+  transition: all 0.3s;
+}
+
+.feedback-section-box-main:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.feedback-section-box-main div:first-child {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 2.7rem;
+}
+
+.feedback-section-box-main div img {
+  width: 4.4rem;
+  height: 4.4rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.feedback-section-box-main div:nth-child(2) p {
+  color: #ff715b;
+  font-weight: bold;
+}
+
+.feedback-section-box-main .descr {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.feedback-section-box-main-left-first {
+  width: 3rem;
+  height: 3rem;
+  background: url(../icons/feedsecond.png) no-repeat center/cover;
+  border-radius: 50%;
+  border: 0.3rem solid #c549ff;
+  box-shadow: 0 0 10px rgba(197, 73, 255, 0.5);
+  position: absolute;
+  top: 0%;
+  left: 16%;
+}
+
+.feedback-section-box-main-left-second {
+  width: 3.1rem;
+  height: 3.1rem;
+  background: url(../icons/feedthird.png) no-repeat center/cover;
+  border-radius: 50%;
+  border: 0.3rem solid #ffca45;
+  box-shadow: 0 0 10px rgba(255, 202, 69, 0.5);
+  position: absolute;
+  top: 25%;
+  left: 3%;
+}
+
+.feedback-section-box-main-left-third {
+  width: 5.2rem;
+  height: 5.2rem;
+  background: url(../icons/feedfourth.png) no-repeat right/cover;
+  border-radius: 50%;
+  border: 0.5rem solid #ff4567;
+  box-shadow: 0 0 10px rgba(255, 69, 103, 0.5);
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.feedback-section-box-main-left-fourth {
+  width: 4.8rem;
+  height: 4.8rem;
+  background: url(../icons/feedfifth.png) no-repeat center/cover;
+  border-radius: 50%;
+  border: 0.4rem solid #5f45ff;
+  box-shadow: 0 0 10px rgba(95, 69, 255, 0.5);
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+}
+
+.feedback-section-box-main-right-first {
+  width: 5.1rem;
+  height: 5.1rem;
+  background: url(../icons/feedsixth.png) no-repeat right/cover;
+  border-radius: 50%;
+  border: 0.4rem solid #18a0fb;
+  box-shadow: 0 0 10px rgba(24, 160, 251, 0.5);
+  position: absolute;
+  top: 0%;
+  right: 6%;
+}
+
+.feedback-section-box-main-right-second {
+  width: 4.1rem;
+  height: 4.1rem;
+  background: url(../icons/feedseventh.png) no-repeat center/cover;
+  border-radius: 50%;
+  border: 0.4rem solid #ffca45;
+  box-shadow: 0 0 10px 0 rgba(255, 202, 69, 0.5);
+  position: absolute;
+  top: 45%;
+  right: 16%;
+}
+
+.feedback-section-box-main-right-third {
+  width: 4.8rem;
+  height: 4.8rem;
+  background: url(../icons/feedeighth.png) no-repeat center/cover;
+  border-radius: 50%;
+  border: 0.4rem solid #65ce54;
+  box-shadow: 0 0 10px 0 rgba(101, 206, 84, 0.5);
+  position: absolute;
+  bottom: 3%;
+  right: 6%;
+}
+
+.feed-hover {
+  transition: all 0.3s ease-in-out;
+}
+.feed-hover:hover {
+  transform: scale(1.2); /* Збільшення при ховері */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

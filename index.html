@@ -9,7 +9,7 @@
   <body>
     <!-- Головна сторінка-->
     <section class="first-screen">
-      <!-- Навігаційне меню для малих екранів -->
+      <!-- Розкриваюче авігаційне меню -->
       <header class="media-navigation">
         <!-- Чекбокс кнопка для виклику меню-->
         <input type="checkbox" class="media-navigation-toggle" id="toggle" />
@@ -44,8 +44,7 @@
       <div class="header-container">
         <img src="./icons/logo.svg" alt="ravel logo" class="logo" />
         <h1>
-          It’s Time To <br />
-          Explore The
+          It’s Time To <span class="br">Explore The</span>
           <div class="letter-container">
             <span class="letter">W</span><span class="letter">O</span
             ><span class="letter">R</span><span class="letter">L</span
@@ -84,7 +83,7 @@
         </div>
         <div class="input-containers">
           <label for="price">Price range &#36;</label>
-          <input type="number" placeholder="$500 - $10 000" />
+          <input type="number" placeholder="$500 - $10 000" name="price" />
         </div>
         <button class="button">Discover Now</button>
       </form>
@@ -140,8 +139,7 @@
     <section class="top-destination-section">
       <div class="top-destination-text-box">
         <h2 class="top-destination-text-box-title title">
-          Top <span>Destinations</span> <br />
-          In The World
+          Top <span>Destinations</span> <span class="br">In The World</span>
         </h2>
         <p class="top-destination-text-box-descr descr">
           It is a long established fact that a reader will be the distracted by
@@ -257,6 +255,37 @@
         </div>
       </div>
       <button class="button">View All Places</button>
+    </section>
+
+    <!--Шоста секція з відгуками-->
+    <section class="feedback-section">
+      <h2 class="title">What Our Happy Customers <span>Say About Us</span></h2>
+      <div class="feedback-section-box">
+        <!-- Основна карточка -->
+        <div class="feedback-section-box-main">
+          <div>
+            <img src="./icons/feedone.png" alt="feed-icon" />
+            <div>
+              <h3 class="sub-title">Md Shamim Hossain</h3>
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+          <p class="descr">
+            Jetrips Hotel is an excellent choice for anybody for considering
+            hosting their events there. Top levela facilities and excellent
+            staff make for a brilliantad environment within which to operate.
+            The hotel is meticulous in its planning.
+          </p>
+        </div>
+        <!--Карточки по боках -->
+        <div class="feedback-section-box-main-left-first feed-hover"></div>
+        <div class="feedback-section-box-main-left-second feed-hover"></div>
+        <div class="feedback-section-box-main-left-third feed-hover"></div>
+        <div class="feedback-section-box-main-left-fourth feed-hover"></div>
+        <div class="feedback-section-box-main-right-first feed-hover"></div>
+        <div class="feedback-section-box-main-right-second feed-hover"></div>
+        <div class="feedback-section-box-main-right-third feed-hover"></div>
+      </div>
     </section>
   </body>
 </html>
