@@ -13,7 +13,7 @@
   min-height: 38rem;
   position: relative;
   z-index: 5;
-  /* margin-right: 5rem; */
+  margin-right: 3rem;
 }
 
 .about-img-box::before {

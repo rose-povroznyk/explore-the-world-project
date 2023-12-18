@@ -1,25 +1,28 @@
 footer {
   margin: 0 auto;
-  padding: 0rem 10rem 3rem 10rem;
+  padding: 0rem 6rem 3rem 6rem;
 }
 
 .footer {
   display: flex;
-  justify-content: space-a;
+  justify-content: space-between;
   align-items: start;
-  max-width: 106rem;
+  max-width: 105rem;
+  margin: 0 auto;
 }
 
 .footer div {
-  margin-right: 6rem;
+  margin-right: 3rem;
 }
 
 .footer-ravel-box {
   display: flex;
   flex-direction: column;
+  width: 25%;
 }
 .footer-ravel-box .logo {
   margin-bottom: 1rem;
+  margin-left: 0;
 }
 .footer-ravel-box p {
   margin-bottom: 1.2rem;

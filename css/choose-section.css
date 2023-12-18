@@ -22,7 +22,13 @@
   height: 29.7rem;
   position: relative;
   transition: all 0.3s ease;
+  margin-right: 2rem;
 }
+
+.choose-section-container-card:last-child {
+  margin-right: 0;
+}
+
 .choose-section-container::after {
   content: "";
   width: 9.5rem;

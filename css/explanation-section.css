@@ -7,6 +7,7 @@
   padding: 0rem 5rem 0rem 5rem;
 }
 .explanation-box {
+  align-items: center;
   max-width: 18rem;
   min-height: 18rem;
   background-color: #f8f8f8;
