@@ -33,6 +33,7 @@
 .top-destination-img-box:hover {
   transform: scale(1.1);
   outline: 0.5rem solid var(--main-color);
+  z-index: 5;
 }
 .top-destination-img-box img {
   width: 100%;
